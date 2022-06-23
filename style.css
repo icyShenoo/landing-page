@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Potta One", cursive;
+  src: url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Potta+One&display=swap);
+}
+
+body {
+  background-image: url(https://fondosmil.com/fondo/24593.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Potta One", cursive;
+  font-size: 15px;
+  color: red;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  border-radius: 
+  margin: 10px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(15, 23, 133);
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 30px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+input {
+  margin-right: 20px;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Potta One", cursive;
+}
+
+button {
+    font-size: 20px;
+    font-family: "Potta One", cursive;
+  width: 100px;
+  height: 50px;
+  box-shadow: 0px 0px 20px 0px red
+}
+
+.search {
+  margin-right: 600px;
+}
